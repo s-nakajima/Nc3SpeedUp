@@ -22,7 +22,7 @@ App::uses('AuthComponent', 'Controller/Component');
  * @author Shohei Nakajima <nakajimashouhei@gmail.com>
  * @package NetCommons\Nc3SpeedUp\Controller
  */
-class Nc3SpeedUpController extends Controller {
+class Nc3SpeedUpLayoutController extends Controller {
 
 /**
  * use layout

@@ -9,12 +9,7 @@
  * @copyright Copyright 2014, NetCommons Project
  */
 
-//App::uses('Controller', 'Controller');
-//App::uses('Nc3SpeedUpAppController', 'Nc3SpeedUp.Controller');
-App::uses('Current', 'NetCommons.Utility');
-App::uses('NetCommonsUrl', 'NetCommons.Utility');
-App::uses('SiteSettingUtil', 'SiteManager.Utility');
-App::uses('AuthComponent', 'Controller/Component');
+App::uses('AppController', 'Controller');
 
 /**
  * Nc3SpeedUp Controller
@@ -22,7 +17,7 @@ App::uses('AuthComponent', 'Controller/Component');
  * @author Shohei Nakajima <nakajimashouhei@gmail.com>
  * @package NetCommons\Nc3SpeedUp\Controller
  */
-class Nc3SpeedUpController extends Controller {
+class Nc3SpeedOldController extends AppController {
 
 /**
  * use layout
@@ -45,18 +40,6 @@ class Nc3SpeedUpController extends Controller {
  */
 	public $components = array(
 		'Security'
-	);
-
-/**
- * use helpers
- *
- * @var array
- */
-	public $helpers = array(
-		'Html' => array(
-			'className' => 'NetCommons.SingletonViewBlockHtml'
-		),
-		'NetCommons.NetCommonsHtml',
 	);
 
 /**

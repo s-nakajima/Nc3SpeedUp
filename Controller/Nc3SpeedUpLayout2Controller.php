@@ -11,10 +11,9 @@
 
 //App::uses('Controller', 'Controller');
 //App::uses('Nc3SpeedUpAppController', 'Nc3SpeedUp.Controller');
-App::uses('Current', 'NetCommons.Utility');
-App::uses('NetCommonsUrl', 'NetCommons.Utility');
-App::uses('SiteSettingUtil', 'SiteManager.Utility');
-App::uses('AuthComponent', 'Controller/Component');
+//App::uses('Current', 'NetCommons.Utility');
+//App::uses('NetCommonsUrl', 'NetCommons.Utility');
+//App::uses('SiteSettingUtil', 'SiteManager.Utility');
 
 /**
  * Nc3SpeedUp Controller
@@ -22,14 +21,15 @@ App::uses('AuthComponent', 'Controller/Component');
  * @author Shohei Nakajima <nakajimashouhei@gmail.com>
  * @package NetCommons\Nc3SpeedUp\Controller
  */
-class Nc3SpeedUpController extends Controller {
+class Nc3SpeedUpLayout2Controller extends Controller {
 
 /**
  * use layout
  *
  * @var string
  */
-	public $layout = 'NetCommons.default';
+//	public $layout = 'NetCommons.default';
+	public $layout = 'default';
 
 /**
  * use theme
