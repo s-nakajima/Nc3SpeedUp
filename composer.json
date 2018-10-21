@@ -1,0 +1,27 @@
+{
+    "name": "netcommons/nc3-speed-up",
+    "description": "Nc3SpeedUp for NetCommons3",
+    "homepage": "http://www.netcommons.org/",
+    "extra": {
+        "installer-paths": {
+            "app/Plugin/{$name}": ["type:cakephp-plugin"]
+        }
+    },
+    "require": {
+        "cakedc/migrations":            "~2.2",
+        "netcommons/net-commons":       "@dev"
+    },
+    "license": "NetCommons License",
+    "authors": [
+        {
+            "name": "NetCommons Community",
+            "homepage": "https://github.com/NetCommons3/Nc3SpeedUp/graphs/contributors"
+        }
+    ],
+    "type":        "cakephp-plugin",
+    "keywords":    ["cakephp", "nc3_speed_up"],
+    "config": {
+        "vendor-dir": "vendors"
+    }
+}
+
