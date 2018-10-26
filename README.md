@@ -32,7 +32,7 @@
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
  | AppController(NetCommonsAppController) | 使用しない | 
- | レイアウト($layout) | Nc3SpeedUp.default | 
+ | レイアウト($layout) | Nc3SpeedUp.default | ※2
  
  #### URL)
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index
@@ -42,7 +42,15 @@
    
  ### ※1) 
  NetCommons.layoutを使用するために、下記を追加する必要がある
- - App::uses('Current', 'NetCommons.Utility');
- - App::uses('NetCommonsUrl', 'NetCommons.Utility');
- - App::uses('SiteSettingUtil', 'SiteManager.Utility');
- - App::uses('AuthComponent', 'Controller/Component');
+ ~~~
+ App::uses('Current', 'NetCommons.Utility');
+ App::uses('NetCommonsUrl', 'NetCommons.Utility');
+ App::uses('SiteSettingUtil', 'SiteManager.Utility');
+ App::uses('AuthComponent', 'Controller/Component');
+ ~~~
+ 
+ ### ※2)
+ このlayoutでは、下記をコメントアウトして、使用しないようにしている
+ ~~~
+ $this->element('NetCommons.common_header');
+ ~~~
