@@ -68,7 +68,7 @@ NC3のAppコントローラ(AppController(NetCommonsAppController))を継承せ�
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
  | AppController(NetCommonsAppController) | 使用しない | 
- | レイアウト($layout) | Nc3SpeedUp.default_2 | ※3
+ | レイアウト($layout) | Nc3SpeedUp.default_2 | 
  
  #### URL)
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index_2
