@@ -5,7 +5,9 @@
 
 ## 調査
 
- ### Case 1
+ ### パタン 1
+ 
+ NC3のAppコントローラ(AppController(NetCommonsAppController))を継承しているパタン(既存のパタン)
 
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
@@ -16,7 +18,9 @@
  http://(NC3のURL)/nc3_speed_up/nc3_speed_old_layout/index
  
  
- ### Case 2
+ ### パタン 2
+ 
+ NC3のAppコントローラ(AppController(NetCommonsAppController))を継承せず、NetCommons.defaultのレイアウトを使用したパタン
  
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
@@ -29,12 +33,13 @@
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout/index
  
  
- ### Case 3
+ ### パタン 3
  
- このケースは、layout=NetCommons.defaultを使用しないようにしていて、下記をコメントアウトしいる
- ~~~
+NC3のAppコントローラ(AppController(NetCommonsAppController))を継承せず、NetCommons.defaultのレイアウトも使用しないパタン
+また、下記の部分も利用しないようにしている
+~~~
  $this->element('NetCommons.common_header');
- ~~~
+~~~
  
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
@@ -45,9 +50,9 @@
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index
  
  
- ### Case 4
+ ### パタン 4
  
- このケースでは、ケース3に加え、netcommons_css、netcommons_js、netcommons_theme_cssのエレメントを使用せず、直接書いたパタン。また、netcommons_cssで設定されている下記は除外している
+このケースでは、ケース3に加え、netcommons_css、netcommons_js、netcommons_theme_cssのエレメントを使用せず、直接書いたパタン。また、netcommons_cssで設定されている下記は除外している
 ~~~~
  echo $this->NetCommonsHtml->css(
 	array(
