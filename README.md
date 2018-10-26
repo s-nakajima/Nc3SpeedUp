@@ -23,19 +23,50 @@
  | AppController(NetCommonsAppController) | 使用しない | 
  | レイアウト($layout) | NetCommons.default | ※1
  
+ 
+ 
  #### URL)
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout/index
  
  
  ### ケース 3
  
+ このケースは、layout=NetCommons.defaultを使用しないようにしていて、下記をコメントアウトしいる
+ ~~~
+ $this->element('NetCommons.common_header');
+ ~~~
+ 
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
  | AppController(NetCommonsAppController) | 使用しない | 
- | レイアウト($layout) | Nc3SpeedUp.default | ※2
+ | レイアウト($layout) | Nc3SpeedUp.default |
  
  #### URL)
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index
+ 
+ 
+ ### ケース 4
+ 
+ このケースでは、ケース3に加え、netcommons_css、netcommons_js、netcommons_theme_cssのエレメントを使用せず、直接書いたパタン。また、netcommons_cssで設定されている下記は除外している
+~~~~
+ echo $this->NetCommonsHtml->css(
+	array(
+		'/frames/css/style.css',
+		'/pages/css/style.css',
+		'/users/css/style.css',
+		'/user_attributes/css/style.css',
+		'/wysiwyg/css/style.css',
+	)
+);
+~~~~
+ 
+ | 条件 | 設定 | 備考
+ | ---- | ------ | ------
+ | AppController(NetCommonsAppController) | 使用しない | 
+ | レイアウト($layout) | Nc3SpeedUp.default_2 | ※3
+ 
+ #### URL)
+ http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index_2
  
  
  ## 注釈
@@ -49,8 +80,3 @@
  App::uses('AuthComponent', 'Controller/Component');
  ~~~
  
- ### ※2)
- このlayoutでは、下記をコメントアウトして、使用しないようにしている
- ~~~
- $this->element('NetCommons.common_header');
- ~~~
