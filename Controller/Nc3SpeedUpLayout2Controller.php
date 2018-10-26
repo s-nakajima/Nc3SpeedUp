@@ -20,6 +20,8 @@
  *
  * @author Shohei Nakajima <nakajimashouhei@gmail.com>
  * @package NetCommons\Nc3SpeedUp\Controller
+ * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-3
+ * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-4
  */
 class Nc3SpeedUpLayout2Controller extends Controller {
 
@@ -29,7 +31,6 @@ class Nc3SpeedUpLayout2Controller extends Controller {
  * @var string
  */
 //	public $layout = 'NetCommons.default';
-	public $layout = 'default';
 
 /**
  * use theme
@@ -63,8 +64,20 @@ class Nc3SpeedUpLayout2Controller extends Controller {
  * index
  *
  * @return void
+ * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-3
  */
 	public function index() {
+		$this->layout = 'default';
+	}
+
+/**
+ * index
+ *
+ * @return void
+ * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-4
+ */
+	public function index_2() {
+		$this->layout = 'default_2';
 	}
 
 }

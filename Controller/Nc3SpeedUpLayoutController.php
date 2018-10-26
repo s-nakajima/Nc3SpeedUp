@@ -17,10 +17,12 @@ App::uses('SiteSettingUtil', 'SiteManager.Utility');
 App::uses('AuthComponent', 'Controller/Component');
 
 /**
- * Nc3SpeedUp Controller
+ * $layout = 'NetCommons.default'を使ったパタン
+ * AppController(NetCommonsAppController)は使用しない
  *
  * @author Shohei Nakajima <nakajimashouhei@gmail.com>
  * @package NetCommons\Nc3SpeedUp\Controller
+ * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-2
  */
 class Nc3SpeedUpLayoutController extends Controller {
 
