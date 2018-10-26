@@ -5,7 +5,7 @@
 
 ## 調査
 
- ### ケース 1
+ ### Case 1
 
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
@@ -16,7 +16,7 @@
  http://(NC3のURL)/nc3_speed_up/nc3_speed_old_layout/index
  
  
- ### ケース 2
+ ### Case 2
  
  | 条件 | 設定 | 備考
  | ---- | ------ | ------
@@ -29,7 +29,7 @@
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout/index
  
  
- ### ケース 3
+ ### Case 3
  
  このケースは、layout=NetCommons.defaultを使用しないようにしていて、下記をコメントアウトしいる
  ~~~
@@ -45,7 +45,7 @@
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index
  
  
- ### ケース 4
+ ### Case 4
  
  このケースでは、ケース3に加え、netcommons_css、netcommons_js、netcommons_theme_cssのエレメントを使用せず、直接書いたパタン。また、netcommons_cssで設定されている下記は除外している
 ~~~~
