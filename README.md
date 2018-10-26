@@ -3,7 +3,7 @@
 
 ボトルネックを発見するために、どこが問題なるか調査する
 
-## 調査ケース
+## 調査
 
  ### ケース 1
 
@@ -69,6 +69,11 @@
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index_2
  
  
+ ## 改善(ISSUEに記述)
+
+https://github.com/s-nakajima/Nc3SpeedUp/issues
+
+
  ## 注釈
    
  ### ※1) 
