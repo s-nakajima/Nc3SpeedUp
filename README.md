@@ -12,7 +12,8 @@
  | AppController(NetCommonsAppController) | 使用する | 
  | レイアウト($layout) | NetCommons.default | ※1
 
- #### URL) http://(NC3のURL)/nc3_speed_up/nc3_speed_old_layout/index
+ #### URL) 
+ http://(NC3のURL)/nc3_speed_up/nc3_speed_old_layout/index
  
  
  ### ケース 2
@@ -22,7 +23,7 @@
  | AppController(NetCommonsAppController) | 使用しない | 
  | レイアウト($layout) | NetCommons.default | ※1
  
- #### URL
+ #### URL)
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout/index
  
  
@@ -33,7 +34,7 @@
  | AppController(NetCommonsAppController) | 使用しない | 
  | レイアウト($layout) | Nc3SpeedUp.default | 
  
- #### URL
+ #### URL)
  http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index
  
  
