@@ -31,7 +31,7 @@ class Nc3SpeedUpLayoutController extends Controller {
  *
  * @var string
  */
-	public $layout = 'NetCommons.default';
+	public $layout = 'Nc3SpeedUp.NetCommons/default';
 
 /**
  * use theme

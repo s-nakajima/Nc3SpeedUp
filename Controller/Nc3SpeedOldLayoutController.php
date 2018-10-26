@@ -25,7 +25,7 @@ class Nc3SpeedOldLayoutController extends AppController {
  *
  * @var string
  */
-	public $layout = 'NetCommons.default';
+	public $layout = 'Nc3SpeedUp.NetCommons/default';
 
 /**
  * use theme

@@ -67,7 +67,7 @@ class Nc3SpeedUpLayout2Controller extends Controller {
  * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-3
  */
 	public function index() {
-		$this->layout = 'default';
+		$this->layout = 'Nc3SpeedUp.Nc3SpeedUp/default';
 	}
 
 /**
@@ -77,7 +77,7 @@ class Nc3SpeedUpLayout2Controller extends Controller {
  * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-4
  */
 	public function index_2() {
-		$this->layout = 'default_2';
+		$this->layout = 'Nc3SpeedUp.Nc3SpeedUp/default_2';
 	}
 
 }
