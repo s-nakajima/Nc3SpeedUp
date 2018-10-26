@@ -12,8 +12,7 @@
  | AppController(NetCommonsAppController) | 使用する | 
  | レイアウト($layout) | NetCommons.default | ※1
 
- #### URL
- http://(NC3のURL)/nc3_speed_up/nc3_speed_old_layout/index
+ #### URL) http://(NC3のURL)/nc3_speed_up/nc3_speed_old_layout/index
  
  
  ### ケース 2
@@ -35,12 +34,13 @@
  | レイアウト($layout) | Nc3SpeedUp.default | 
  
  #### URL
- http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout/index
+ http://(NC3のURL)/nc3_speed_up/nc3_speed_up_layout2/index
  
  
  ## 注釈
    
- ### ※1) NetCommons.layoutを使用するために、下記を追加する必要がある
+ ### ※1) 
+ NetCommons.layoutを使用するために、下記を追加する必要がある
  - App::uses('Current', 'NetCommons.Utility');
  - App::uses('NetCommonsUrl', 'NetCommons.Utility');
  - App::uses('SiteSettingUtil', 'SiteManager.Utility');
