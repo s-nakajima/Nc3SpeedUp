@@ -18,7 +18,7 @@ App::uses('AppController', 'Controller');
  * @package NetCommons\Nc3SpeedUp\Controller
  * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-1
  */
-class Nc3SpeedOldLayoutController extends AppController {
+class LayoutOldController extends AppController {
 
 /**
  * use layout

@@ -24,7 +24,7 @@ App::uses('AuthComponent', 'Controller/Component');
  * @package NetCommons\Nc3SpeedUp\Controller
  * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-2
  */
-class Nc3SpeedUpLayoutController extends Controller {
+class LayoutCaseController extends Controller {
 
 /**
  * use layout

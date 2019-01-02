@@ -23,7 +23,7 @@
  * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-3
  * @see https://github.com/s-nakajima/Nc3SpeedUp/blob/master/README.md#パタン-4
  */
-class Nc3SpeedUpLayout2Controller extends Controller {
+class LayoutCase2Controller extends Controller {
 
 /**
  * use layout
