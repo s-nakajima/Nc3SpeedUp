@@ -9,12 +9,10 @@
  * @copyright Copyright 2014, NetCommons Project
  */
 ?>
-
-パタン 9
+パタン 10
 <br>
 
 <?php
-for ($i = 0; $i < 50; $i++) {
-	echo $this->element('Nc3SpeedUp.ViewClass/element_test'); echo $i + 1; echo '<br>';
-}
-
+echo $this->requestAction('/calendars/calendars/index?frame_id=4&page_id=6', ['return']);
+//echo $this->requestAction('/nc3_speed_up/view_class_case2/element_test', ['return']) . '<br>';
+//echo $this->requestAction('/nc3_speed_up/html_case/link_test', ['return']) . '<br>';

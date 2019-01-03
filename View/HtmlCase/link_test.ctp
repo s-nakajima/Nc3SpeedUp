@@ -16,7 +16,7 @@
 <?php
 $startTime = microtime(true);
 
-for ($i = 0; $i < 1; $i++) {
+for ($i = 0; $i < 50; $i++) {
 	echo $this->Nc3SpeedUpHtml->link('link_test' . ($i + 1), '/nc3_speed_up/html_case/link_test');
 	echo ' | ';
 	echo $this->Nc3SpeedUpHtml->link(

@@ -10,4 +10,4 @@
  */
 ?>
 
-パタン 5
+Nc3SpeedUp.ViewClass/element_test

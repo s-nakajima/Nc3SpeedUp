@@ -98,6 +98,33 @@ http://html.local:9094/nc3-speedup-2/nc3_speed_up/view_class_case/element_test
 http://html.local:9094/nc3-speedup-2/nc3_speed_up/view_class_case2/element_test
 
 
+ ### パタン 10
+
+ requestAction()を使用して表示した場合
+
+ #### URL)
+http://html.local:9094/nc3-speedup-2/nc3_speed_up/request_action_old/index
+
+
+ ### パタン 11
+
+ requestAction()を使用して表示した場合。
+ NetCommonsHtmlHelperのlink()の改善、Viewのイベント削除
+
+ #### URL)
+http://html.local:9094/nc3-speedup-2/nc3_speed_up/request_action_case/index
+
+
+ ### パタン 12
+
+ requestAction()を使用しない場合。
+ NetCommonsHtmlHelperのlink()の改善、Viewのイベント削除
+
+ #### URL)
+http://html.local:9094/nc3-speedup-2/nc3_speed_up/request_action_case2/index
+
+
+
 
  ## 改善(ISSUEに記述)
 

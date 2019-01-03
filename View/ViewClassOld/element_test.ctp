@@ -14,7 +14,7 @@
 <br>
 
 <?php
-for ($i = 0; $i < 200; $i++) {
+for ($i = 0; $i < 50; $i++) {
 	echo $this->element('Nc3SpeedUp.ViewClass/element_test'); echo $i + 1; echo '<br>';
 }
 
